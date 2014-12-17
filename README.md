@@ -1,20 +1,20 @@
-# [gulp](https://github.com/gulpjs/gulp)-uncss [![Build Status](https://travis-ci.org/ben-eb/gulp-uncss.svg?branch=master)](https://travis-ci.org/ben-eb/gulp-uncss) [![NPM version](https://badge.fury.io/js/gulp-uncss.svg)](http://badge.fury.io/js/gulp-uncss) [![Dependency Status](https://gemnasium.com/ben-eb/gulp-uncss.svg)](https://gemnasium.com/ben-eb/gulp-uncss)
+# [gulp](https://github.com/gulpjs/gulp)-uncss-sp [![Build Status](https://travis-ci.org/samarpanda/gulp-uncss-sp.svg?branch=master)](https://travis-ci.org/samarpanda/gulp-uncss)
 
 > Remove unused CSS with [UnCSS](https://github.com/giakki/uncss).
 
 *If you have any difficulties with the output of this plugin, please use the [UnCSS tracker](https://github.com/giakki/uncss/issues).*
 
-Install via [npm](https://npmjs.org/package/gulp-uncss):
+Install via [npm](https://npmjs.org/package/gulp-uncss-sp):
 
 ```
-npm install gulp-uncss --save-dev
+npm install gulp-uncss-sp --save-dev
 ```
 
 ## Example
 
 ```js
 var gulp = require('gulp');
-var uncss = require('gulp-uncss');
+var uncss = require('gulp-uncss-sp');
 
 gulp.task('simple', function() {
     return gulp.src('site.css')
