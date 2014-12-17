@@ -1,0 +1,40 @@
+{
+  "name": "gulp-uncss-sp",
+  "version": "0.0.1",
+  "description": "Remove unused CSS selectors. Insanely copied from gulp-uncss package. Using this module for demonstration. This module is not recommended to be used in any kind of dependencies.",
+  "license": "MIT",
+  "homepage": "https://github.com/samarpanda/gulp-uncss-sp",
+  "author": {
+    "name": "Samar Panda",
+    "email": "samar.panda84@gmail.com",
+    "url": "http://samarpanda.com"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/samarpanda/gulp-uncss-sp.git"
+  },
+  "keywords": [
+    "unused",
+    "css",
+    "gulpplugin"
+  ],
+  "dependencies": {
+    "gulp-util": "~3.0.1",
+    "object-assign": "^1.0.0",
+    "uncss": "0.9.1"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "clear": "0.0.1",
+    "gulp": "~3.5.6",
+    "gulp-mocha": "~0.4.1",
+    "gulp-jshint": "~1.5.0",
+    "jshint-stylish": "~0.1.5",
+    "mocha": "~1.18.2",
+    "event-stream": "~3.1.0"
+  },
+  "main": "index.js"
+}
